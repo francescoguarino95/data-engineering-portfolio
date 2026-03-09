@@ -1,1 +1,1 @@
-
+End-to-end AWS data pipeline for cryptocurrency analysis. Includes raw data ingestion on Amazon S3, ETL processing with AWS Glue, Parquet storage across data lake layers and preparation of curated data for analytics.
