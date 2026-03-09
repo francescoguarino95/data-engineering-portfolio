@@ -2,6 +2,8 @@
 
 This repository contains a selection of projects developed during my **Data Engineering Master program with ProfessionAI**, where I worked on practical projects involving data pipelines, cloud platforms and machine learning workflows.
 
+The repository also includes a folder containing certificates of participation for the different modules completed during the program.
+
 ## Main Projects
 
 - **AWS Crypto Pipeline**  
