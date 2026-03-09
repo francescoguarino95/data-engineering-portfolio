@@ -1,0 +1,60 @@
+{
+    "name": "df_movies_clean",
+    "properties": {
+        "type": "MappingDataFlow",
+        "typeProperties": {
+            "sources": [
+                {
+                    "dataset": {
+                        "referenceName": "ds_movies_input_csv",
+                        "type": "DatasetReference"
+                    },
+                    "name": "sourceMovies"
+                }
+            ],
+            "sinks": [
+                {
+                    "dataset": {
+                        "referenceName": "ds_movies_output_csv",
+                        "type": "DatasetReference"
+                    },
+                    "name": "sinkMovies"
+                }
+            ],
+            "transformations": [
+                {
+                    "name": "selectRename"
+                },
+                {
+                    "name": "filterHighRating"
+                }
+            ],
+            "scriptLines": [
+                "source(output(",
+                "          movies as string,",
+                "          Title as string,",
+                "          genresgenregenre as string,",
+                "          YEAR as string,",
+                "          Rating as string",
+                "     ),",
+                "     allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     ignoreNoFilesFound: false) ~> sourceMovies",
+                "sourceMovies select(mapColumn(",
+                "          Film = Title,",
+                "          Genere = genresgenregenre,",
+                "          Valutazione = Rating",
+                "     ),",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true) ~> selectRename",
+                "selectRename filter(toDouble(Valutazione) > 7) ~> filterHighRating",
+                "filterHighRating sink(allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     partitionFileNames:['movies_clean.csv'],",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true,",
+                "     partitionBy('hash', 1)) ~> sinkMovies"
+            ]
+        }
+    }
+}

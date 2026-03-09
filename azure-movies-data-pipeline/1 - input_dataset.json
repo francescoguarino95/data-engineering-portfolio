@@ -1,0 +1,44 @@
+{
+    "name": "ds_movies_input_csv",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_blob_cinedata",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "fileName": "moviesDB.csv",
+                "container": "input"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "movies",
+                "type": "String"
+            },
+            {
+                "name": "Title",
+                "type": "String"
+            },
+            {
+                "name": "genresgenregenre",
+                "type": "String"
+            },
+            {
+                "name": "YEAR",
+                "type": "String"
+            },
+            {
+                "name": "Rating",
+                "type": "String"
+            }
+        ]
+    }
+}

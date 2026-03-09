@@ -1,0 +1,22 @@
+{
+    "name": "ds_movies_output_csv",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_blob_cinedata",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "container": "output"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    }
+}
