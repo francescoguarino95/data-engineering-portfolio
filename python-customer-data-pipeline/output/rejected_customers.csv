@@ -1,0 +1,7 @@
+customer_id,first_name,last_name,email,phone,city,country,signup_date,annual_income,is_active,rejection_reason
+1003,luca,bianchi,luca.bianchi@email,+39 3334445555,Milan,ITALIA,2024/03/10,35000,1,invalid_email
+1004,anna,verdi,anna.verdi@email.com,,Turin,Italy,2024-04-01,not_available,no,invalid_income
+1005,marco,neri,marco.neri@email.com,+39 3337778888,Bologna,Italy,2024-05-20,41000,True,duplicate_customer_id
+1006, ,esposito,esposito@email.com,+39 3339990000,Naples,Italy,2024-06-11,27000,false,missing_first_name
+1008,giovanni,greco,giovanni.greco@email.com,+39 3335656565,Genoa,Italy,2024-13-01,25000,no,invalid_date
+1013,sara,gallo,sara.gallo@email.com,+39 3334545455,Naples,Italy,2024-12-01,31000,,invalid_is_active

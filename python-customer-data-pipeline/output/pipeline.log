@@ -1,0 +1,9 @@
+2026-03-09 19:40:37,471 - INFO - Pipeline started
+2026-03-09 19:40:37,471 - INFO - Reading input CSV file
+2026-03-09 19:44:04,982 - INFO - Pipeline started
+2026-03-09 19:44:04,982 - INFO - Reading input CSV file
+2026-03-09 19:44:04,997 - INFO - Validation and cleaning completed
+2026-03-09 19:44:05,005 - INFO - CSV outputs generated
+2026-03-09 19:44:05,015 - INFO - SQLite loading completed
+2026-03-09 19:44:05,015 - INFO - JSON report generated
+2026-03-09 19:44:05,015 - INFO - Pipeline completed successfully

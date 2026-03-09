@@ -1,0 +1,16 @@
+customer_id,first_name,last_name,email,phone,city,country,signup_date,annual_income,is_active
+1001,francesco,guarino, FRANCESCO@email.com ,+39 3331112222,Naples,italy,2024-01-15,32000,yes
+1002,maria,rossi,maria.rossi@email.com,+39 3332223333,Rome,Italy,15/02/2024,28000,true
+1003,luca,bianchi,luca.bianchi@email,+39 3334445555,Milan,ITALIA,2024/03/10,35000,1
+1004,anna,verdi,anna.verdi@email.com,,Turin,Italy,2024-04-01,not_available,no
+1005,marco,neri,marco.neri@email.com,+39 3337778888,Bologna,Italy,2024-05-20,41000,True
+1005,marco,neri,marco.neri@email.com,+39 3337778888,Bologna,Italy,2024-05-20,41000,True
+1006, ,esposito,esposito@email.com,+39 3339990000,Naples,Italy,2024-06-11,27000,false
+1007,laura,romano,laura.romano@email.com,+39 3331212121,Florence,France,2024-07-01,39000,yes
+1008,giovanni,greco,giovanni.greco@email.com,+39 3335656565,Genoa,Italy,2024-13-01,25000,no
+1009,elena,conti,elena.conti@email.com,+39 3338787878,Venice,Italy,2024-08-15,30000,0
+1010,davide,marino,davide.marino@email.com,+39 3334545454,Palermo,Italy,2024-09-10,36000,1
+1011,simona,ferretti,SIMONA.FERRETTI@EMAIL.COM,+39 3332323232,Bari,italy,2024-10-05,33000,YES
+1012,andrea,moretti,andrea.moretti@email.com,+39 3333434343,Catania,Italy,2024-11-18,29000,False
+1013,sara,gallo,sara.gallo@email.com,+39 3334545455,Naples,Italy,2024-12-01,31000,
+1014,paolo,riva,paolo.riva@email.com,+39 3336767676,Rome,Italy,2024-12-15,45000,true

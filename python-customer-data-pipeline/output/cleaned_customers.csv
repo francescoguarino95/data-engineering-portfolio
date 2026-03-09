@@ -1,0 +1,10 @@
+customer_id,first_name,last_name,email,phone,city,country,signup_date,annual_income,is_active
+1001,Francesco,Guarino,francesco@email.com,+39 3331112222,Naples,Italy,2024-01-15,32000.0,True
+1002,Maria,Rossi,maria.rossi@email.com,+39 3332223333,Rome,Italy,2024-02-15,28000.0,True
+1005,Marco,Neri,marco.neri@email.com,+39 3337778888,Bologna,Italy,2024-05-20,41000.0,True
+1007,Laura,Romano,laura.romano@email.com,+39 3331212121,Florence,France,2024-07-01,39000.0,True
+1009,Elena,Conti,elena.conti@email.com,+39 3338787878,Venice,Italy,2024-08-15,30000.0,False
+1010,Davide,Marino,davide.marino@email.com,+39 3334545454,Palermo,Italy,2024-09-10,36000.0,True
+1011,Simona,Ferretti,simona.ferretti@email.com,+39 3332323232,Bari,Italy,2024-10-05,33000.0,True
+1012,Andrea,Moretti,andrea.moretti@email.com,+39 3333434343,Catania,Italy,2024-11-18,29000.0,False
+1014,Paolo,Riva,paolo.riva@email.com,+39 3336767676,Rome,Italy,2024-12-15,45000.0,True

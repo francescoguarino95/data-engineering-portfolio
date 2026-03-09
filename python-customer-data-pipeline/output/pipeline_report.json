@@ -1,0 +1,10 @@
+{
+    "rows_read": 15,
+    "rows_cleaned": 9,
+    "rows_rejected": 6,
+    "duplicates_removed": 1,
+    "sqlite_loaded_rows": 9,
+    "cleaned_file": "output/cleaned_customers.csv",
+    "rejected_file": "output/rejected_customers.csv",
+    "sqlite_database": "data/customers.db"
+}
